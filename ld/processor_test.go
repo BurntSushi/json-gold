@@ -2,7 +2,7 @@ package ld_test
 
 import (
 	"encoding/json"
-	. "github.com/kazarena/json-gold/ld"
+	. "github.com/BurntSushi/json-gold/ld"
 	"github.com/stretchr/testify/assert"
 	"io/ioutil"
 	"log"

@@ -1,7 +1,7 @@
 package ld_test
 
 import (
-	. "github.com/kazarena/json-gold/ld"
+	. "github.com/BurntSushi/json-gold/ld"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

@@ -308,6 +308,13 @@
       "purpose": "Verifies that an exception is raised in Flattening when conflicting indexes are found",
       "input": "error-0043-in.jsonld",
       "expect": "conflicting indexes"
+    }, {
+      "@id": "#t0044",
+      "@type": [ "jld:NegativeEvaluationTest", "jld:FlattenTest" ],
+      "name": "bad value for @id property",
+      "purpose": "Verifies that an exception is raised in Flattening when a non-string value is used in an @id property",
+      "input": "error-0044-in.jsonld",
+      "expect": "Exepected string for"
     }
   ]
 }
